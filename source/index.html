@@ -12,7 +12,7 @@
   <script>
     WebFont.load({
       google: {
-        families: ["Open Sans:300,400", "Oswald:400,700"]
+        families: ["Tahoma:400"]
       }
     });
   </script>
@@ -23,9 +23,109 @@
 </head>
 
 <body>
+  <div class="logo__wrapper">
+    <a href="" class="logo">Логотип</a>
+  </div>
+  <div class="wrapper">
+    <header class="header">
+      <a href="http://www.beboss.ru/" class="header__link" target="_blank">БИБОСС</a>
+      <h1 class="header__title">Заработай баллы!</h1>
+    </header>
 
-  <!-- Для поддержки css grid layouts !-->
-  <script src="lib/css-polyfills.js"></script>
+    <div class="mac">
+      <a href="" class="mac__link">Франшиза Dunkin’ Donuts на БИБОСС</a>
+    </div>
+    <div class="inner-wrapper">
+      <div class="promo">
+        <p>БИБОСС даёт возможность получить бесплатные баллы – нужно лишь разместить на сайте компании любую из ссылок:</p>
+        <ul>
+          <li>Текстовая ссылка «Франшиза <span>[Название]</span> на БИБОСС»</li>
+          <li>Текстовая ссылка «Наша франшиза на БИБОСС»</li>
+          <li>Кнопка “Нравится франшиза” + счетчик популярности</li>
+        </ul>
+        <div class="promo__block">
+          <p>Зачем нужны <a href="">баллы</a>?</p>
+          <h2 class="promo__title">Больше баллов — выше позиция в выдаче категории</h2>
+        </div>
+      </div>
+      <div class="rules">
+        <div class="rules__list">
+          <h2 class="rules__title">Правила размещения ссылки</h2>
+          <ul>
+            <li>Ссылка должна быть индексируемой (без тегов &lt;noindex&gt; и &lt;nofollow&gt; )
+            </li>
+            <li>Ссылка должна быть читаемой, не скрытой от глаз посетителя сайта,</li>
+            <li>Ссылка должна быть размещена на странице сайта, посвящённой франчайзингу,</li>
+            <li>При размещении ссылок на другие порталы о франчайзинге – баллы обнуляются.</li>
+          </ul>
+        </div>
+        <div class="rules__cost">
+          <h2 class="rules__title">Стоимость ссылки</h2>
+          <p class="rules__color">200 баллов</p>
+          <p>ТиЦ Вашего сайта от 10</p>
+          <p class="rules__color">50 баллов</p>
+          <p>ТиЦ Вашего сайта от 0 до 10</p>
+        </div>
+      </div>
+      <form action="" class="form">
+        <h2 class="form__title">Получить ссылку</h2>
+        <fieldset class="form__block">
+          <label for="name1">Ваше имя</label>
+          <input class="form__field" type="text" id="name1" placeholder="Представьтесь, пожалуйста">
+        </fieldset>
+        <fieldset class="form__block">
+          <label for="name2">Номер телефона</label>
+          <input class="form__field phone" type="tel" id="name2" placeholder="Для начисления баллов и связи с Вами">
+        </fieldset>
+        <fieldset class="form__block">
+          <label for="name3">Название франшизы</label>
+          <input class="form__field" type="text" id="name3" placeholder="Например, Subway">
+        </fieldset>
+        <button type="button">Получить ссылку</button>
+      </form>
+      <form action="" class="form">
+        <h2 class="form__title">Получить ссылку</h2>
+        <fieldset class="form__block">
+          <label for="name4">Ваше имя</label>
+          <input class="form__field" type="text" id="name4" placeholder="Представьтесь, пожалуйста">
+        </fieldset>
+        <fieldset class="form__block">
+          <label for="name5">Номер телефона</label>
+          <input class="form__field phone" type="tel" id="name5" placeholder="Для начисления баллов и связи с Вами">
+        </fieldset>
+        <fieldset class="form__block">
+          <label for="name6">Название франшизы</label>
+          <input class="form__field" type="text" id="name6" placeholder="Например, Subway">
+        </fieldset>
+        <button type="button">Получить ссылку</button>
+      </form>
+      <form action="" class="form">
+        <h2 class="form__title">Получить ссылку</h2>
+        <fieldset class="form__block">
+          <label for="name7">Ваше имя</label>
+          <input class="form__field" type="text" id="name7" placeholder="Представьтесь, пожалуйста">
+        </fieldset>
+        <fieldset class="form__block">
+          <label for="name8">Номер телефона</label>
+          <input class="form__field phone" type="tel" id="name8" placeholder="Для начисления баллов и связи с Вами">
+        </fieldset>
+        <fieldset class="form__block">
+          <label for="name9">Название франшизы</label>
+          <input class="form__field" type="text" id="name9" placeholder="Например, Subway">
+        </fieldset>
+        <button type="button">Получить ссылку</button>
+      </form>
+      <p class="yet"><strong>Это еще не все...</strong> Вы можете заработать дополнительные баллы, если разместите на своём сайте новость, интервью или статью БИБОСС о Вашей компании с активной ссылкой! 50 баллов за активную ссылку на новость!</p>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="footer__wrapper">
+      <a href="" class="logo  logo--footer">Логотип</a>
+    </div>
+  </footer>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/noisy/1.2/jquery.noisy.min.js"></script>
+  <script src="lib/masked.js"></script>
   <script src="js/script.js"></script>
 </body>
 

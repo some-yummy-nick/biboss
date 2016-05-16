@@ -1,5 +1,5 @@
 :root {
-  --font: "Open Sans", Arial, sans-serif;
+  --font: Arial, sans-serif;
 }
 
 @custom-media --mobile-widths-only (max-width: 767px);

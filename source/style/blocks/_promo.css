@@ -1,0 +1,25 @@
+.promo {
+  padding-left: 15px;
+  padding-right: 15px;
+  @media(--desktop-widths) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  ul {
+    padding: 0;
+    margin-left: 15px;
+    li {
+      line-height: 36px;
+    }
+  }
+  span {
+    color: #a8a8a8;
+  }
+  &__block {
+    margin-top: 40px;
+    text-align: center;
+    a {
+      color: #396ea9;
+    }
+  }
+}

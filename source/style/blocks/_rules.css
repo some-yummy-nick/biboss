@@ -1,0 +1,39 @@
+.rules {
+  @mixin clearfix;
+  div {
+    float: left;
+    width: 50%;
+    min-width: 390px;
+    min-width: 225px;
+  }
+  ul {
+    padding-left: 15px;
+    li {
+      margin-bottom: 20px;
+    }
+  }
+  &__list {
+    padding-left: 15px;
+    padding-right: 20px;
+    @media(--desktop-widths) {
+      padding-left: 0;
+    }
+  }
+  &__cost {
+    min-width: 225px;
+    padding-right: 15px;
+  }
+  &__color {
+    color: #1ea01e;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: -5px;
+  }
+  @media(max-width:449px) {
+    div {
+      float: none;
+      margin: auto;
+    }
+  }
+}

@@ -1,9 +1,9 @@
 {
-  "name": "post",
+  "name": "biboss",
   "version": "0.1.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yeffasol/post.git"
+    "url": "git+https://github.com/yeffasol/biboss.git"
   },
   "author": "Marat",
   "license": "ISC",

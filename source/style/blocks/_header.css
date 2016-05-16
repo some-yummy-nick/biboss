@@ -1,0 +1,33 @@
+.header {
+  min-height: 522px;
+  padding-top: 70px;
+  max-width: 1003px;
+  margin: auto;
+  text-align: center;
+  color: #fff;
+  background: url("../img/header-bg.jpg");
+  background-repeat: no-repeat;
+  &__inner {
+    max-width: 1003px;
+    min-height: 522px;
+    margin: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    @media(--desktop-widths) {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  &__link {
+    color: inherit;
+    font-size: 30px;
+    @mixin no-decor;
+    &:hover {
+      color: rebeccapurple;
+    }
+  }
+  &__title {
+    font-size: 50px;
+    font-weight: 700;
+  }
+}
