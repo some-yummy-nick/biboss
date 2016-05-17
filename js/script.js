@@ -1,0 +1,1 @@
+"use strict";!function(){jQuery(function(o){o(".phone").each(function(){o(this).mask("8 999 999 99 99")}),o("body").noisy({intensity:0,size:200,opacity:.08,fallback:"",monochrome:!1}).css("background-color","#f0f5e5")})}();
